@@ -1,0 +1,22 @@
+sudo apt-get install putty
+
+sudo nano /etc/X11/Xwrapper.config
+allowed_users=anybody
+needs_root_rights=yes
+Ctrl+O
+Ctrl+X
+
+cat /var/lib/misc/dnsmasq.leases
+putty
+
+On Raspberry Terminal -
+Default Login-
+login as:pi
+password:raspberry
+sudo raspi-config
+sudo reboot
+
+sudo apt-get install tightvncserver
+sudo apt-get install xtightvncviewer
+vncserver
+xtightvncviewer
