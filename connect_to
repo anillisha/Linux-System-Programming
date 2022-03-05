@@ -20,3 +20,4 @@ sudo apt-get install tightvncserver
 sudo apt-get install xtightvncviewer
 vncserver
 xtightvncviewer
+ssh pi@IP address(not check)
